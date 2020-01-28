@@ -1,0 +1,11 @@
+Deployment Notes:
+-----------------
+1. Python version = 3.7
+2. To set up an environment and copy all the dependencies into it and activate, run:
+	conda create --name <<env_name>> --file requirements.txt
+
+3. Edit the file __ikman_fetcher.py to input search query, start page and max pages to be scraped. 
+
+4. To run type python __ikman_fetcher.py
+   Json output will be directed towards the console and to a json file called 'output.json'.
+5. All errors and exceptions are logged in ikmanlog.txt.	
